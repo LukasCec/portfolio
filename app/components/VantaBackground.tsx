@@ -1,3 +1,12 @@
+// Rozšírenie typu window, aby fungovalo window.THREE a window.VANTA
+declare global {
+    interface Window {
+        THREE?: any;
+        VANTA?: any;
+    }
+}
+export {};
+
 "use client";
 import { useEffect, useRef } from "react";
 
