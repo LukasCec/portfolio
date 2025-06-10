@@ -23,25 +23,25 @@ export default function Projects() {
                     ">
                         <ProjectCard
                             name="NKA Generator"
-                            description="A web generator for creating written questions and tests for the National Olympiad in Informatics (NKA). Streamlines and automates task creation with export to various formats."
-                            tech={["nextjs2", "typescript", "react", "tailwindcss"]}
+                            description="Visual editor and simulator for nondeterministic finite automata (NFA/NKA). Build, visualize, and test automatons interactively in your browser. Great for learning formal languages!"
+                            tech={["nextjs2","python", "typescript", "react", "tailwindcss"]}
                             demoUrl="https://github.com/LukasCec/NKA-Generator"
                         />
                         <ProjectCard
                             name="Eatlator"
                             description="A calorie and nutrition tracker app. Lets users create meals, track daily intake, and gain insights into their diet and nutrition."
-                            tech={["nextjs2", "react", "typescript", "postgresql", "tailwindcss"]}
+                            tech={["nextjs2", "python", "react", "typescript", "postgresql", "tailwindcss"]}
                             demoUrl="https://github.com/LukasCec/Eatlator"
                         />
                         <ProjectCard
                             name="GameStudio"
                             description="A web-based game portal with fun minigames, user accounts, and leaderboards. Built with Next.js and designed for extensibility with new games."
-                            tech={["nextjs2", "react", "typescript", "tailwindcss"]}
+                            tech={["nextjs2", "spring", "java", "react", "typescript", "tailwindcss"]}
                             demoUrl="https://github.com/LukasCec/gamestudio_next_js"
                         />
                         <ProjectCard
                             name="Unseen Steps"
-                            description="A cooperative, atmospheric two-player game. One player can see, the other can't—work together to solve puzzles and progress. Award-winning project at the STU GameJam."
+                            description="2D platformer in a glitchy ninja world. Reveal hidden environments with your cursor, fight enemies, and explore mysterious levels. Custom pixel art, unique 'defogging' mechanic, and atmospheric adventure."
                             tech={["csharp"]}
                             demoUrl="https://github.com/LukasCec/UnseenSteps"
                         />
