@@ -22,14 +22,21 @@ export default function Projects() {
                         lg:max-w-[760px] lg:ml-auto
                     ">
                         <ProjectCard
+                            name="Customizable Kiosk Web App"
+                            description="A modern, admin-friendly web application for uploading and displaying promotional posters on dormitory kiosks. Features an intuitive UI, drag-and-drop uploads, and real-time presentation. Built with Next.js, TypeScript, Tailwind CSS, and PostgreSQL."
+                            tech={["nextjs2", "typescript", "react", "tailwindcss", "postgresql", "docker"]}
+                            demoUrl="https://github.com/LukasCec/tvorba-prisposobitelnej-webstranky-pre-kiosk-kod"
+                        />
+
+                        <ProjectCard
                             name="NKA Generator"
                             description="Visual editor and simulator for nondeterministic finite automata (NFA/NKA). Build, visualize, and test automatons interactively in your browser. Great for learning formal languages!"
-                            tech={["nextjs2","python", "typescript", "react", "tailwindcss"]}
+                            tech={["nextjs2","python", "typescript", "react", "tailwindcss", "docker"]}
                             demoUrl="https://github.com/LukasCec/NKA-Generator"
                         />
                         <ProjectCard
                             name="Eatlator"
-                            description="A calorie and nutrition tracker app. Lets users create meals, track daily intake, and gain insights into their diet and nutrition."
+                            description="Translate foreign menus from photos, discover recipes from your ingredients, and track your nutrition-AI-powered, mobile-first web app for travelers and food lovers."
                             tech={["nextjs2", "python", "react", "typescript", "postgresql", "tailwindcss"]}
                             demoUrl="https://github.com/LukasCec/Eatlator"
                         />
@@ -57,7 +64,12 @@ export default function Projects() {
                             tech={["react", "typescript", "tailwindcss"]}
                             demoUrl="https://github.com/LukasCec/CocktailWeb"
                         />
-
+                        <ProjectCard
+                            name=""
+                            description=""
+                            tech={["expressjs"]}
+                            demoUrl=""
+                        />
                     </div>
                 </ScrollProxy>
             </div>
