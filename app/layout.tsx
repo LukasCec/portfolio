@@ -22,7 +22,6 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <html lang="en" className={GeistSans.className}>
         <body className={`${geistSans.variable} ${geistMono.variable} antialiased bg-black min-h-screen relative`}>
         <div className="fixed inset-0 flex items-center justify-center bg-black">
-            {/* Skry na mobile: */}
             <div className="hidden sm:block"><CornerClock /></div>
             <div className="hidden sm:block"><ConsoleTexts /></div>
             <div className="fixed top-4 left-4 right-4 bottom-4 lg:top-10 lg:left-10 lg:right-10 lg:bottom-10 border border-white/60 overflow-hidden shadow-xl">

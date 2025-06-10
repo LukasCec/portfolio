@@ -2,9 +2,10 @@
 import { motion } from "framer-motion";
 
 const links = [
-    { name: "X(Twitter)", url: "https://twitter.com/tvoj_twitter" },
-    { name: "Instagram", url: "https://instagram.com/tvoj_instagram" },
-    { name: "Bluesky", url: "https://bsky.app/profile/tvoj_bluesky" },
+    { name: "GitHub", url: "https://github.com/LukasCec" },
+    { name: "X(Twitter)", url: "https://x.com/lukas_c_e_c" },
+    { name: "Instagram", url: "https://www.instagram.com/lukas_c_e_c" },
+
 ];
 
 export default function Info() {
